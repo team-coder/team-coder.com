@@ -30,9 +30,10 @@ twitter_username: teamcoder_
 github_username:  team-coder
 
 # Build settings
-theme: minima
+## theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 permalink: /:title
 
