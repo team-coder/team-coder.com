@@ -74,7 +74,6 @@ header {
     border-bottom-color: var(--color-blue);
     border-bottom-width: 5px;
     border-bottom-style: solid;
-    padding-top: 10px;
 }
 
 .header-container {
@@ -108,22 +107,6 @@ header {
 .logo-image {
     align-self: center;
     margin-right: 30px;
-}
-
-.nav-list {
-    display: flex;
-    margin-top: 30px;
-    padding-left: 0;
-}
-
-/* all list items in the navigation bar */
-.nav-list > li {
-    padding: 10px;
-    list-style-type: none;
-}
-
-#nav-list-item-about {
-    margin-left: auto;
 }
 
 
