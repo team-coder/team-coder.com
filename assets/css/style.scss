@@ -54,6 +54,16 @@ a:hover {
     text-decoration: underline;
 }
 
+.author-picture {
+    border-radius: 50%;
+}
+
+.author-name {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
 /**** Align images in posts **********/
 .title-image {
     width: 100%;
@@ -134,10 +144,6 @@ main {
     width: 200px;
 }
 
-.post-meta {
-    color: ff0000;
-}
-
 
 /**** Footer *************************************************/
 
@@ -197,6 +203,15 @@ footer {
 
     .footer-sections {
         flex-direction: column;
+    }
+
+    .author-picture {
+        margin: auto;
+        display: block;
+    }
+
+    .author-name {
+        text-align: center;
     }
 
     /*.img-align-right {
