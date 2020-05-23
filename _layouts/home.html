@@ -4,29 +4,38 @@ layout: default
 
 <div class="home">
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+  <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {{ post.excerpt }}
-      </li>
-      {%- endfor -%}
-    </ul>
+  {%- for post in site.posts -%}
+  <a href="{{ post.url | relative_url }}" style="text-decoration: none;">
+    <article class="content-container">
+      {% if post.feature_image %}
+      <img src="{{post.feature_image}}" alt="hero image {{ post.title | escape }}" class="title-image">
+      {% endif %}
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+      <div class="post-header">
+        <h2 class="content-teaser-title">{{ post.title | escape }}</h2>
+        <p class="post-meta" style="color: #777777; margin-bottom: 30px;">
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            {{ post.date | date: date_format }}
+          </time>
+          {%- if post.author -%}
+          • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
+              itemprop="name">{{ post.author }}</span></span>
+          {%- endif -%}
+        </p>
+        <!-- {{ post.excerpt }} -->
+      </div>
+    </article>
+  </a>
+  {%- endfor -%}
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 
 </div>

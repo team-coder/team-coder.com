@@ -30,7 +30,7 @@ body {
 h1 {
     font-size: 40px;
     margin-top: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 h2 {
@@ -53,6 +53,17 @@ a:visited {
 a:hover {
     color: #338abd;
     text-decoration: underline;
+}
+
+.content-teaser-title {
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: #000;
+}
+
+.post-meta {
+    margin-top: 0;
 }
 
 .author-picture {
@@ -135,7 +146,7 @@ main {
 .content-container {
     background: var(--color-background-content);
     padding: 30px;
-    margin: 10px;
+    margin: 10px 10px 30px 10px;
     flex: 1;
     border: 1px solid #ccc;
 }
