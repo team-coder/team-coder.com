@@ -33,7 +33,7 @@ The big question is: How can you avoid to get an unstable master branch if you p
 ### Feature Toggles
 When I introduced trunk based development to my team at HolidayCheck there was one first step which was absolutely necessary in order to be able to commit to the trunk quickly! Before we even started to change our branching structure we had to make sure that we can make very short-living branches that can be merged into the develop branch as quickly as possible. The solution is rather simple! We started to use feature toggles – little switches in the source code that decide whether a feature is active or not.
 
-{% highlight swift %}
+```swift
 if ( FeatureManager.isFeatureEnabled("NewLoginForm") )
 {
     openNewLoginForm()
@@ -42,7 +42,7 @@ else
 {
     openOldLoginForm()
 }
-{% endhighlight %}
+```
 
 ![feature toggle](/assets/images/posts/feature_toggle.png){: .img-align-right}
 As long as a feature is not ready to be released, it is disabled. That allows us to already push it into the develop branch without breaking anything. Developers and manual testers can enable every feature in some settings which are hidden to the normal users. The develop branch is always ready to be released because the unfinished features are switched off. They will be shipped to the user but they will not be visible. As soon as a feature is finished it is turned on and available with the next release.
