@@ -124,7 +124,7 @@ header {
 
 main {
     max-width: var(--max-content-width);
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
@@ -180,6 +180,7 @@ footer {
 @media all and (max-width: 800px) {
     main {
       flex-wrap: wrap;
+      margin-top: 0;
     }
     .content-container {
       flex: 1 1 100%;
