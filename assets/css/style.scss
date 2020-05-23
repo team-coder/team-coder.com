@@ -183,7 +183,7 @@ footer {
     text-align: center;
     font-size: medium;
     color: gray;
-    margin-top: 50px;
+    margin: 50px 25px 0 25px;
 }
 
 
@@ -196,9 +196,11 @@ footer {
     }
     .content-container {
       flex: 1 1 100%;
+      padding: 15px;
     }
     .sidebar-container {
       flex: 1 1 100%;
+      padding: 15px;
     }
 
     .logo-image {
@@ -217,6 +219,11 @@ footer {
 
     .footer-sections {
         flex-direction: column;
+    }
+
+    .footer-section {
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
     .author-picture {
