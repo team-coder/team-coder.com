@@ -139,15 +139,19 @@ main {
     display: flex;
 }
 
-.content-container {
-    background: var(--color-background-content);
-    padding: 30px;
+.content-area {
     margin: 10px 10px 30px 10px;
     flex: 1;
-    border: 1px solid #ccc;
 }
 
-.sidebar-container {
+.content-container {
+    background: var(--color-background-content);
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+.sidebar-area {
     padding: 30px;
     margin: 10px;
     width: 200px;
@@ -201,11 +205,17 @@ footer {
       flex-wrap: wrap;
       margin-top: 0;
     }
-    .content-container {
+
+    .content-area {
       flex: 1 1 100%;
-      padding: 15px;
+      margin-bottom: 0;
     }
-    .sidebar-container {
+    
+    .content-container {
+        padding: 15px;
+    }
+    
+    .sidebar-area {
       flex: 1 1 100%;
       padding: 15px;
     }
