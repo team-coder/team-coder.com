@@ -72,12 +72,6 @@ a:hover {
     border-radius: 50%;
 }
 
-.author-name {
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
 /**** Align images in posts **********/
 .title-image {
     width: 100%;
@@ -159,6 +153,17 @@ main {
     width: 200px;
 }
 
+.sidebar-section {
+    margin-bottom: 70px;
+
+    h2 {
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
 
 /**** Footer *************************************************/
 
@@ -233,7 +238,7 @@ footer {
         display: block;
     }
 
-    .author-name {
+    .sidebar-author-name {
         text-align: center;
     }
 
