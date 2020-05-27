@@ -156,6 +156,7 @@ main {
 
 .content-container-small {
     @extend .content-container;
+    margin-bottom: 20px;
     padding: 8px;
 
     transition: all .13s ease-in-out;
