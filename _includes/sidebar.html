@@ -14,12 +14,16 @@
         </span>
     </section>
 
+    {%- if page.author -%}
     <section class="sidebar-section">
-        {%- if site.posts.size > 0 -%}
-        <h2>More posts from Robert Ecker</h2>
+        <h2>More posts from {{ page.author }}</h2>
         {%- for post in site.posts -%}
+        {%- if page.id != post.id -%}
+        {%- if page.author == post.author -%}
         {%- include article-teaser.html post=post-%}
+        {% endif %}
+        {% endif %}
         {%- endfor -%}
-        {%- endif -%}
     </section>
+    {%- endif -%}
 </aside>
