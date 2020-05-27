@@ -6,17 +6,7 @@
         <img src="{{include.post.feature_image}}" alt="hero image {{ include.post.title | escape }}" class="title-image">
         {% endif %}
         <p class="content-container-small-title">{{ include.post.title | escape }}</p>
-
-        <p class="content-container-small-meta">
-            <time class="dt-published" datetime="{{ include.post.date | date_to_xmlschema }}" itemprop="datePublished">
-              {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-              {{ include.post.date | date: date_format }}
-            </time>
-            {%- if include.post.author -%}
-            • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
-                itemprop="name">{{ include.post.author }}</span></span>
-            {%- endif -%}
-        </p>
+        {%- include article-meta.html post=include.post-%}
     </div>
 </a>
 

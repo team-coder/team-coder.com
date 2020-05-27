@@ -64,8 +64,11 @@ a:hover {
     line-height: 1.33;
 }
 
-.post-meta {
-    margin-top: 5px;
+.article-meta {
+    color: #777;
+    font-weight: normal;
+    font-size: medium;
+    margin: 0;
 }
 
 .author-picture {
@@ -164,11 +167,8 @@ main {
         margin: 0 0 10px 0;
     }
 
-    .content-container-small-meta {
-        color: #777;
-        font-weight: normal;
+    .article-meta {
         font-size: small;
-        margin: 0;
     }
 }
 
@@ -276,10 +276,6 @@ footer {
 
     .sidebar-author-name {
         text-align: center;
-    }
-
-    .post-meta {
-        margin-top: 20px;
     }
 
     /*.img-align-right {
