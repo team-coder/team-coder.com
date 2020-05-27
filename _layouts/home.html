@@ -11,19 +11,9 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
   {%- for post in site.posts -%}
-  <a href="{{ post.url | relative_url }}" style="text-decoration: none;">
-    <article class="content-container">
-      {% if post.feature_image %}
-      <img src="{{post.feature_image}}" alt="hero image {{ post.title | escape }}" class="title-image">
-      {% endif %}
-
-      <div class="post-header">
-        <h2 class="content-teaser-title">{{ post.title | escape }}</h2>
-        {%- include article-meta.html post=post-%}
-        <!-- {{ post.excerpt }} -->
-      </div>
-    </article>
-  </a>
+  <div class="content-container">
+    {% include article-teaser.html post=post %}
+  </div>
   {%- endfor -%}
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>

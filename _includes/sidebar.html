@@ -21,7 +21,9 @@
             <section class="sidebar-section"></section>
                 <h2>More posts by {{ page.author }}</h2>
                 {% for post in other_posts_by_author %}
-                    {% include article-teaser.html post=post %}
+                    <div class="content-container-small">
+                        {% include article-teaser.html post=post %}
+                    </div>
                 {% endfor %}
             </section>
         {% endif %}
