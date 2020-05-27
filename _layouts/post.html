@@ -21,14 +21,30 @@ layout: default
     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
   </article>
 
-  <aside class="content-container">
-    <p>
-      Do you have comments or questions about this article? Let's have a discussion on <a
-      href="https://twitter.com/teamcoder_">Twitter</a>! I'm curious about your feedback!
-    </p>
-    <p>
-      Do you like this article? You would do me a huge favour if you tweeted about it :)
-    </p>
+  <aside class="background-text">
+    <h2>Next Steps</h2>
+    <ul>
+      <li>If you like this article
+        <a class="twitter-share-button" href="#" onclick="javascript:window.open('https://twitter.com/share?url=' + window.location.href + '&text={{ page.title | escape }}' + encodeURI(' by @teamcoder_'), 'Sharing','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=700, height=700, top=100, left=370'); return false;">
+          share it on Twitter
+          <svg class="svg-icon"><use xlink:href="{{ '/assets/images/social-icons.svg#twitter' | relative_url }}"></use></svg>
+        </a>
+      </li>
+      <li>
+        If you have comments or questions
+        <a href="https://twitter.com/teamcoder_" target="_blank">
+          contact me on Twitter
+          <svg class="svg-icon"><use xlink:href="{{ '/assets/images/social-icons.svg#twitter' | relative_url }}"></use></svg>
+        </a>
+      </li>
+      <li>
+        If you found a typo
+        <a href="https://github.com/team-coder/team-coder.com" target="_blank">
+          create a pull request on Github
+          <svg class="svg-icon"><use xlink:href="{{ '/assets/images/social-icons.svg#github' | relative_url }}"></use></svg>
+        </a>
+      </li>
+    </ul>
   </aside>
 
 </div>
