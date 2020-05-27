@@ -7,6 +7,12 @@
         {% endif %}
         <h3>{{ include.post.title | escape }}</h3>
         {%- include article-meta.html post=include.post-%}
+        
+        {% if include.show-excerpt %}
+        <p>
+            {{ include.post.excerpt | strip_html | truncatewords: 50 }}
+        </p>
+        {% endif %}
     </div>
 </a>
 

@@ -12,7 +12,7 @@ layout: default
   {%- if site.posts.size > 0 -%}
   {%- for post in site.posts -%}
   <div class="content-container">
-    {% include article-teaser.html post=post %}
+    {% include article-teaser.html post=post show-excerpt=true %}
   </div>
   {%- endfor -%}
 

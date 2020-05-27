@@ -152,6 +152,10 @@ main {
         line-height: 1.25;
         margin: 0 0 5px 0;
     }
+
+    p {
+        color: var(--color-text);
+    }
 }
 
 .content-container-small {
