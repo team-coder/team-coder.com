@@ -9,7 +9,7 @@
         {%- include article-meta.html post=include.post-%}
         
         {% if include.show-excerpt %}
-        <p>
+        <p class="excerpt">
             {{ include.post.excerpt | strip_html | truncatewords: 50 }}
         </p>
         {% endif %}
