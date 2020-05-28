@@ -2,8 +2,8 @@
 
 <a href="{{ include.post.url | relative_url }}" style="text-decoration: none;">
     <div>
-        {% if include.post.feature_image %}
-        <img src="{{include.post.feature_image}}" alt="hero image {{ include.post.title | escape }}" class="title-image">
+        {% if include.post.title_image %}
+        <img src="{{include.post.title_image}}" alt="hero image {{ include.post.title | escape }}" class="title-image">
         {% endif %}
         <h3>{{ include.post.title | escape }}</h3>
         {%- include article-meta.html post=include.post-%}

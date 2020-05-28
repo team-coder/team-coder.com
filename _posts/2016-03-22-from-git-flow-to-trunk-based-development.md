@@ -4,14 +4,14 @@ title:  "From Git Flow to Trunk Based Development"
 author: "Robert Ecker"
 date:   2016-03-22 12:00:00 +0200
 categories: dev
-feature_image: /assets/images/posts/trunk_based_development.png
+title_image: ../images/posts/2016-03-22-from-git-flow-to-trunk-based-development/title-image.png
 ---
 
 I have worked with [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/) for a few years and it helped me a lot to structure my [Git](https://git-scm.com/) branches. However, I have encountered some problems with Git Flow, most of them coming from long-living branches. The solution to solve those problems is *trunk based development*! It is an amazingly simple technique which is also the base for effective continuous delivery. In this article I tell you how I have made the transition from Git Flow to trunk based development with my iOS development team at [HolidayCheck](https://www.holidaycheck.de/). You will learn what is the most important step to get there and what benefits you will get from trunk based development, so keep on reading!
 
 ## The Problems with Git Flow
 ### Merge Conflicts
-![merge conflicts](/assets/images/posts/merge-conflicts-small.png){: .img-align-right}
+![merge conflicts](../images/posts/2016-03-22-from-git-flow-to-trunk-based-development/merge-conflict.png){: .img-align-right}
 Merge conflicts are very common when you work with Git Flow. The reason is simple: If you have multiple parallel feature branches which live for a long time then it is very likely that the same part of the code base is changed in two different branches. Merge conflicts are not only frustrating for the developer who has to solve them manually. They also increase the risk of breaking something in your code because it is easy to make a mistake when you have to decide which code to use and which not. Even if you do everything right when you merge one branch into another it can happen that the combination of two features breaks your code.
 
 ### Feature Separation
@@ -44,7 +44,7 @@ else
 }
 ```
 
-![feature toggle](/assets/images/posts/feature_toggle.png){: .img-align-right}
+![feature toggle](../images/posts/2016-03-22-from-git-flow-to-trunk-based-development/feature-toggle.png){: .img-align-right}
 As long as a feature is not ready to be released, it is disabled. That allows us to already push it into the develop branch without breaking anything. Developers and manual testers can enable every feature in some settings which are hidden to the normal users. The develop branch is always ready to be released because the unfinished features are switched off. They will be shipped to the user but they will not be visible. As soon as a feature is finished it is turned on and available with the next release.
 
 When we had those feature toggles in our code we realized that they are not only useful while the features are being developed! It would be great to keep the toggles in the code even when the features are finished. If we had a possibility to control the toggles remotely for all our users then we would be able to deactivate a feature quickly whenever we see that it has a bad impact on our conversion rates or other key numbers. Also if any bugs occur or the traffic load for our servers becomes too high, we are always able to switch off the feature immediately. This is especially important as we have to wait multiple days until Apple reviews and excepts a new release of our iOS app. Being able to disable features without a new release is a very powerful weapon!
