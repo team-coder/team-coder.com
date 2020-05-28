@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 213 214" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.0348995,-0.999391,0.999391,0.0348995,-5.9699,249.067)">
+        <g id="Page-1">
+            <g id="Artboard">
+                <g id="Logo">
+                    <g id="Red-Guy" transform="matrix(1,0,0,1,101,1)">
+                        <circle id="Head" cx="120" cy="95" r="14" style="fill:rgb(176,59,59);"/>
+                        <path id="Body" d="M96.945,13.421C146.474,41.272 150.352,88.95 150.352,88.95C150.352,88.95 132.635,70.282 115.166,73.741C101.114,76.524 75.201,117.099 75.201,117.099C75.201,117.099 87.707,75.216 66.492,46.458C46.18,18.063 0.487,9.862 0.487,9.862C0.487,9.862 47.416,-14.43 96.945,13.421Z" style="fill:rgb(177,59,59);"/>
+                    </g>
+                    <g id="Green-Guy" transform="matrix(-0.5,0.866025,-0.866025,-0.5,262.195,121.1)">
+                        <circle id="Head1" serif:id="Head" cx="119" cy="97" r="14" style="fill:rgb(136,172,57);"/>
+                        <path id="Body1" serif:id="Body" d="M97.802,14.237C146.686,42.148 150.959,90.278 150.959,90.278C150.959,90.278 131.635,72.282 114.535,75.915C100.114,78.524 74.537,118.638 74.537,118.638C74.537,118.638 86.707,77.216 66.286,48.346C45.18,20.063 0.069,11.152 0.069,11.152C0.069,11.152 47.993,-14.251 97.802,14.237Z" style="fill:rgb(135,171,57);"/>
+                    </g>
+                    <g id="Blue-Guy" transform="matrix(-0.515038,-0.857167,0.857167,-0.515038,78.0983,200.891)">
+                        <circle id="Head2" serif:id="Head" cx="121" cy="98" r="14" style="fill:rgb(48,129,177);"/>
+                        <path id="Body2" serif:id="Body" d="M98.37,14.539C147.824,43.838 150.133,91.81 150.133,91.81C150.133,91.81 133.635,73.282 116.35,77.076C102.114,79.524 76.286,120.434 76.286,120.434C76.286,120.434 88.707,78.216 67.8,49.097C47.18,21.063 0.967,9.888 0.967,9.888C0.967,9.888 48.916,-14.76 98.37,14.539Z" style="fill:rgb(48,129,176);"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
