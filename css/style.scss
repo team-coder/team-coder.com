@@ -71,14 +71,29 @@ ul {
 }
 
 /**** Align images in posts **********/
+
+.post-content {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .img-align-right {
+        float: right;
+        margin-left: 12px;
+        width: auto;
+    }
+    
+    .img-align-left {
+        float: left;
+        margin-right: 12px;
+        width: auto;
+    }
+}
+
 .title-image {
     width: 100%;
     height: auto;
-}
-
-.img-align-right {
-    float: right;
-    margin-left: 12px;
 }
 
 
