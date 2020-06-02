@@ -183,6 +183,31 @@ main {
     .excerpt {
         color: var(--color-text);
     }
+
+    blockquote {
+        background: var(--color-background-main);
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        margin: 0;
+        padding: 0px 25px;
+        font-style: italic;
+        font-weight: 200;
+        font-size: larger;
+        p::before {
+            content: "\"";
+        }
+        p::after {
+            content: "\"";
+        }
+    }
+
+    p {
+        code {
+            background: var(--color-background-main);
+            border-radius: 3px;
+            padding: 2px 3px;
+        }
+    }
 }
 
 .content-container-small {
