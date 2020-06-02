@@ -279,6 +279,8 @@ footer {
 
 .footer-section {
     padding: 10px;
+    flex-basis: 0;
+    flex-grow: 1;
 }
 
 .footer-end-note {

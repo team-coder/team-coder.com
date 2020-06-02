@@ -1,12 +1,16 @@
 <footer>
   <div class="footer-sections">
     <div class="footer-section">
-      <h3>Lorem Ipsum</h3>
+      <h3>
+        Subscribe
+        <svg class="svg-icon" style="fill: #fff; padding-bottom: 4px">
+          <use xlink:href="{{ '/images/social-icons.svg#rss' | relative_url }}"></use>
+        </svg>
+      </h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Illo porro harum fuga cumque similique ab aliquid,
-        aperiam quia natus pariatur nulla error? Deserunt qui
-        amet velit sequi voluptatem sunt consequatur!
+        There is an RSS feed for this blog!
+        <a href="{{ '/feed.xml' | relative_url }}">Subscribe</a>
+        if you don't want to miss new articles!
       </p>
     </div>
     <div class="footer-section">
@@ -20,15 +24,6 @@
         The Team Coder is an Open Source project. Feel free to browse the code on
         <a href="https://github.com/team-coder/team-coder.com" target="_blank">GitHub</a>
         or even create a pull request or an issue!
-      </p>
-    </div>
-    <div class="footer-section">
-      <h3>Lorem Ipsum</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Illo porro harum fuga cumque similique ab aliquid,
-        aperiam quia natus pariatur nulla error? Deserunt qui
-        amet velit sequi voluptatem sunt consequatur!
       </p>
     </div>
   </div>
