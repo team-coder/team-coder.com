@@ -14,7 +14,7 @@ layout: default
       {%- include article-meta.html post=page-%}
     </div>
 
-    <div class="post-content e-content" itemprop="articleBody">
+    <div class="post-content" itemprop="articleBody">
       {{ content }}
     </div>
 
@@ -25,7 +25,7 @@ layout: default
     <h2>Next Steps</h2>
     <ul>
       <li>If you like this article
-        <a class="twitter-share-button" href="#" onclick="javascript:window.open('https://twitter.com/share?url=' + window.location.href + '&text={{ page.title | escape }}' + encodeURI(' by @teamcoder_'), 'Sharing','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=700, height=700, top=100, left=370'); return false;">
+        <a class="twitter-share-button" href="#" onclick="javascript:window.open('https://twitter.com/share?url=' + window.location.href + '&text={{ page.title | escape }}' + encodeURI(' by @teamcoder_'), 'Sharing'); return false;">
           share it on Twitter
           <svg class="svg-icon"><use xlink:href="{{ '/images/social-icons.svg#twitter' | relative_url }}"></use></svg>
         </a>
