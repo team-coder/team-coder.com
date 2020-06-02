@@ -1,9 +1,6 @@
 ---
 ---
 
-//@import "{{ site.theme }}";
-
-
 :root {
     --max-content-width: 1200px;
     --color-background-header: #333333;
@@ -11,7 +8,9 @@
     --color-background-main: #eeeeee;
     --color-background-content: #ffffff;
     --color-background-nav: #ffffff;
+    --color-border: #cccccc;
     --color-text: #000000;
+    --color-text-secondary: #777777;
     --color-text-header: #ffffff;
     --color-text-footer: #ffffff;
     --color-blue: #3081b0;
@@ -40,7 +39,7 @@ h2 {
 
 h3 {
     margin-top: 30px;
-    margin-bottom: 0px;
+    margin-bottom: -5px;
 }
 
 a {
@@ -60,7 +59,7 @@ ul {
 }
 
 .article-meta {
-    color: #777;
+    color: var(--color-text-secondary);
     font-weight: normal;
     font-size: medium;
     margin: 0;
@@ -70,9 +69,49 @@ ul {
     border-radius: 50%;
 }
 
-/**** Align images in posts **********/
+.title-image {
+    width: 100%;
+    height: auto;
+}
+
+.svg-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    vertical-align: text-bottom;
+}
+
+
+/**** Post Content from Markdown Files ********************/
 
 .post-content {
+    p {
+        code {
+            background: var(--color-background-main);
+            border-radius: 3px;
+            padding: 2px 3px;
+        }
+    }
+
+    blockquote {
+        background: var(--color-background-main);
+        border: 1px solid var(--color-border);
+        border-radius: 3px;
+        margin: 0;
+        padding: 0px 25px;
+        font-style: italic;
+        font-weight: 200;
+        font-size: larger;
+        p::before {
+            content: "\"";
+        }
+        p::after {
+            content: "\"";
+        }
+    }
+    
     img {
         max-width: 100%;
         height: auto;
@@ -89,11 +128,6 @@ ul {
         margin-right: 12px;
         width: auto;
     }
-}
-
-.title-image {
-    width: 100%;
-    height: auto;
 }
 
 
@@ -140,15 +174,6 @@ header {
     margin-right: 30px;
 }
 
-.svg-icon {
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    padding-right: 5px;
-    padding-bottom: 3px;
-    vertical-align: text-bottom;
-}
-
 
 /**** Main *************************************************/
 
@@ -168,9 +193,13 @@ main {
 
 .content-container {
     background: var(--color-background-content);
-    border: 1px solid #ccc;
+    border: 1px solid var(--color-border);
     margin-bottom: 30px;
     padding: 30px;
+}
+
+.article-teaser {
+    @extend .content-container;
 
     h3 {
         color: var(--color-text);
@@ -183,40 +212,17 @@ main {
     .excerpt {
         color: var(--color-text);
     }
-
-    blockquote {
-        background: var(--color-background-main);
-        border: 1px solid #ccc;
-        border-radius: 3px;
-        margin: 0;
-        padding: 0px 25px;
-        font-style: italic;
-        font-weight: 200;
-        font-size: larger;
-        p::before {
-            content: "\"";
-        }
-        p::after {
-            content: "\"";
-        }
-    }
-
-    p {
-        code {
-            background: var(--color-background-main);
-            border-radius: 3px;
-            padding: 2px 3px;
-        }
-    }
 }
 
-.content-container-small {
+.article-teaser-small {
     @extend .content-container;
+    @extend .article-teaser;
+
     margin-bottom: 20px;
     padding: 8px;
 
     transition: all .15s ease-in-out;
-
+    
     h3 {
         font-size: medium;
     }
@@ -226,9 +232,9 @@ main {
     }
 }
 
-.content-container-small:hover {
+.article-teaser-small:hover {
     transform: scale(1.015);
-    box-shadow: 0px 0px 10px 0px #ccc;
+    box-shadow: 0px 0px 10px 0px var(--color-border);
 }
 
 .background-text {
@@ -247,7 +253,7 @@ main {
 
     h2 {
         font-weight: bold;
-        font-size: 20px;
+        font-size: 22px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
@@ -340,20 +346,13 @@ footer {
     .background-text {
         padding: 15px;
     }
-
-    /*.img-align-right {
-        display: block;
-        float: none;
-        margin-left: 0;
-        margin-bottom: 20px;
-    }*/
 }
 
 
 /**** Syntax Highlighting for Code **************************/
 
  pre {
-   border: 1px solid #ccc;
+   border: 1px solid var(--color-border);
    border-radius: 3px;
    background-color: var(--color-background-main);
    padding: 8px 12px;

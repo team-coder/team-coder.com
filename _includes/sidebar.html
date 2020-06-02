@@ -18,10 +18,10 @@
         {% assign posts_by_author = site.posts | where: "author", page.author %}
         {% assign other_posts_by_author = posts_by_author | where_exp:"post", "post.id != page.id" %}
         {% if other_posts_by_author.size > 0 %}
-            <section class="sidebar-section"></section>
+            <section class="sidebar-section">
                 <h2>More posts by {{ page.author }}</h2>
                 {% for post in other_posts_by_author %}
-                    <div class="content-container-small">
+                    <div class="article-teaser-small">
                         {% include article-teaser.html post=post %}
                     </div>
                 {% endfor %}
