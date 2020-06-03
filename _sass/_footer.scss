@@ -1,0 +1,42 @@
+footer {
+    background: $color-background-footer;
+    color: $color-text-footer;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-between;
+    max-width: $max-content-width;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-section {
+    padding: 10px;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.footer-end-note {
+    text-align: center;
+    font-size: medium;
+    color: gray;
+    margin: 50px 25px 0 25px;
+}
+
+
+/**** Mobile *************************************************/
+
+@media all and (max-width: 800px) {
+    
+    .footer-sections {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}

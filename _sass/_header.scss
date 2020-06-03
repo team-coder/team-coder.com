@@ -1,0 +1,60 @@
+header {
+    background: $color-background-header;
+    color: $color-text-header;
+    border-bottom-color: $color-blue;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+}
+
+.header-container {
+    max-width: $max-content-width;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-logo-and-text {
+    display: flex;
+    margin-left: 10px;
+}
+
+.header-text {
+    display: initial;
+    color: $color-text-header;
+}
+
+.header-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.header-subtitle {
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+.logo-image {
+    align-self: center;
+    margin-right: 30px;
+}
+
+
+/**** Mobile *************************************************/
+
+@media all and (max-width: 800px) {
+
+    .logo-image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .header-title {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+
+    .header-subtitle {
+        font-size: 10px;
+    }
+}
