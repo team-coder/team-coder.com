@@ -5,6 +5,7 @@ author: "Robert Ecker"
 date:   2015-09-09 12:00:00 +0200
 categories: general
 title_image: ../images/posts/2015-09-09-the-team-coder/title-image.jpg
+permalink: /the-team-coder/
 ---
 
 Coding in a team requires more than just coding skills. A modern software developer is not only a programmer but also an architect, communicator, teacher and learner. There are many tools and practices that help developers to work effectively in a team and to create code that is maintainable and extendable by all team members.
