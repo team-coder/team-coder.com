@@ -4,7 +4,7 @@ title:  "How to Build a Twitter Bot with Python"
 author: "Robert Ecker"
 date:   2017-05-24 12:00:00 +0200
 categories: dev
-title_image: ../images/posts/2017-05-24-how-to-build-a-twitter-bot-with-python/title-image.png
+image: ../images/posts/2017-05-24-how-to-build-a-twitter-bot-with-python/title-image.png
 ---
 
 I have built a [Twitter](https://twitter.com/socrabot_) bot which searches Twitter for tweets about software craftsmanship and retweets them if they are interesting. In this tutorial I will tell you how you can easily build your own Twitter bot with Python and run it on a Raspberry Pi or any other Unix system!

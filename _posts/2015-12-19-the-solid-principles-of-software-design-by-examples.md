@@ -4,7 +4,7 @@ title:  "The SOLID Principles of Software Design by Examples"
 author: "Robert Ecker"
 date:   2015-12-19 12:00:00 +0200
 categories: dev
-title_image: ../images/posts/2015-12-19-the-solid-principles-of-software-design-by-examples/title-image.png
+image: ../images/posts/2015-12-19-the-solid-principles-of-software-design-by-examples/title-image.png
 permalink: /solid-principles/
 ---
 

@@ -4,7 +4,7 @@ title:  "The Problem With High Test Coverage"
 author: "Robert Ecker"
 date:   2017-11-21 12:00:00 +0200
 categories: dev
-title_image: ../images/posts/2017-11-21-the-problem-with-high-test-coverage/title-image.jpg
+image: ../images/posts/2017-11-21-the-problem-with-high-test-coverage/title-image.jpg
 ---
 
 Last week I attended Dan North’s workshop “Testing Faster”. Dan North is the originator of the term *Behavior Driven Development* (BDD). The whole workshop was amazing but there was one thing which really surprised me. Since BDD is basically another way of Test Driven Development (TDD), I would have expected that having a high test coverage was one of Dan’s goals when writing software. But what I learned was that he actually doesn’t care about the overall test coverage. He explained that in a very convincing way. In this article I wrote down what I learned about the test coverage.

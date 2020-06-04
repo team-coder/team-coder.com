@@ -4,7 +4,7 @@ title:  "How to Establish Coding Guidelines in Your Team"
 author: "Robert Ecker"
 date:   2016-02-03 12:00:00 +0200
 categories: leadership
-title_image: ../images/posts/2016-02-03-how-to-establish-coding-guidelines-in-your-team/title-image.png
+image: ../images/posts/2016-02-03-how-to-establish-coding-guidelines-in-your-team/title-image.png
 ---
 
 Coding guidelines help software developing teams to write consistent code which is easy to read and understand for all team members. Establishing such guidelines can be problematic if it is done wrong but it will be very beneficial for the whole team if it is done the right way. In this article we tell you what is important if you want to establish coding guidelines in your team successfully.

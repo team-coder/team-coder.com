@@ -5,8 +5,8 @@ layout: default
 <div class="content-area">
   <article class="content-container" itemscope itemtype="http://schema.org/BlogPosting">
 
-    {% if page.title_image %}
-    <img src="{{page.title_image}}" alt="hero image {{ page.title | escape }}" class="title-image">
+    {% if page.image %}
+    <img src="{{page.image}}" alt="hero image {{ page.title | escape }}" class="title-image">
     {% endif %}
 
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>

@@ -4,7 +4,7 @@ title:  "The Team Coder: A modern software developer"
 author: "Robert Ecker"
 date:   2015-09-09 12:00:00 +0200
 categories: misc
-title_image: ../images/posts/2015-09-09-the-team-coder/title-image.jpg
+image: ../images/posts/2015-09-09-the-team-coder/title-image.jpg
 permalink: /the-team-coder/
 ---
 
