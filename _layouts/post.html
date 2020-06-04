@@ -10,26 +10,8 @@ layout: default
     {% endif %}
 
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-
-    <div class="article-meta">
-      <img src="/images/robert-ecker.jpg" alt="the author Robert Ecker" class="author-picture">
-      <div>
-        <p class="article-meta-text">
-          {%- if page.author -%}
-          <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-            <span itemprop="name">
-              {{ page.author }}
-            </span>
-          </span>
-          {%- endif -%}
-        </p>
-        <p class="article-meta-text">
-          <time itemprop="datePublished" datetime="{{ include.post.date | date_to_xmlschema }}">
-            {{ page.date | date: "%b %-d, %Y" }}
-          </time>
-        </p>
-      </div>
-    </div>
+    
+    {%- include article-meta.html page=page-%}
 
     <div class="post-content" itemprop="articleBody">
       {{ content }}

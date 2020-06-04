@@ -1,0 +1,25 @@
+{%- if include.page.author -%}
+<div class="article-meta">
+    <a href="/about/">
+        <img src="/images/robert-ecker.jpg" alt="the author Robert Ecker" class="author-picture">
+    </a>
+    <div>
+        <p class="article-meta-text">
+            <a href="/about/">
+                <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+                    <span itemprop="name">
+                        {{ include.page.author }}
+                    </span>
+                </span>
+            </a>
+        </p>
+        {%- if include.page.date -%}
+        <p class="article-meta-text">
+            <time itemprop="datePublished" datetime="{{ include.post.date | date_to_xmlschema }}">
+                {{ include.page.date | date: "%b %-d, %Y" }}
+            </time>
+        </p>
+        {%- endif -%}
+    </div>
+</div>
+{%- endif -%}
