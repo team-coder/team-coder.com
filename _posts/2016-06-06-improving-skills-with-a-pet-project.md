@@ -5,6 +5,7 @@ author: "Robert Ecker"
 date:   2016-06-06 12:00:00 +0200
 categories: misc
 image: ../images/posts/2016-06-06-improving-skills-with-a-pet-project/title-image.png
+permalink: /pet-project/
 ---
 
 I bought my first Smartphone in 2011. It was an HTC Desire with Android running on it. A few weeks earlier I had started to learn Java so since Android apps can also be developed with Java I had to create an app for that great device! Now, five years later, I’m building the same app again but with new technologies. My goal is to train my skills. In this article I want to tell you how I improve my skills as a software developer with that pet project and how you can do the same with your own little project!
