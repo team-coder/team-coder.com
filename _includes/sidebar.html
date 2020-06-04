@@ -1,19 +1,4 @@
 <aside class="sidebar-area">
-    <section class="sidebar-section">
-        <img src="/images/robert-ecker.jpg" alt="a picture of Robert Ecker" class="author-picture">
-        <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-            <span itemprop="name">
-                <h2 class="sidebar-author-name">Robert Ecker</h2>
-            </span>
-            <span itemprop="description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Illo porro harum fuga cumque similique ab aliquid,
-                aperiam quia natus pariatur nulla error? Deserunt qui
-                amet velit sequi voluptatem sunt consequatur!
-            </span>
-        </span>
-    </section>
-
     {% if page.author %}
         {% assign posts_by_author = site.posts | where: "author", page.author %}
         {% assign other_posts_by_author = posts_by_author | where_exp:"post", "post.id != page.id" %}

@@ -1,6 +1,6 @@
 {% if include.post %}
 
-<p class="article-meta">
+<p class="article-meta-text">
     
     <time class="dt-published" datetime="{{ include.post.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ include.post.date | date: "%b %-d, %Y" }}
@@ -9,7 +9,7 @@
     {%- if include.post.author -%}
     •
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-        <span class="p-author h-card" itemprop="name">
+        <span itemprop="name">
             {{ include.post.author }}
         </span>
     </span>

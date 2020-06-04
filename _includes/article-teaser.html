@@ -6,7 +6,7 @@
         <img src="{{include.post.title_image}}" alt="hero image {{ include.post.title | escape }}" class="title-image">
         {% endif %}
         <h3>{{ include.post.title | escape }}</h3>
-        {%- include article-meta.html post=include.post-%}
+        {%- include article-meta-text.html post=include.post-%}
         
         {% if include.show-excerpt %}
         <p class="excerpt">

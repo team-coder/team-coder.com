@@ -82,20 +82,29 @@ blockquote {
     }
 }
 
+.title-image {
+    width: 100%;
+    height: auto;
+}
+
 .article-meta {
+    display: flex;
+    margin-top: 20px;
+}
+
+.article-meta-text {
     color: $color-text-secondary;
     font-weight: normal;
     font-size: medium;
     margin: 0;
 }
 
-.title-image {
-    width: 100%;
-    height: auto;
-}
-
 .author-picture {
     border-radius: 50%;
+    align-self: center;
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
 }
 
 .svg-icon {
@@ -157,7 +166,7 @@ main {
 }
 
 .sidebar-area {
-    padding: 30px;
+    padding: 0 0 30px 30px;
     margin: 10px;
     width: 200px;
 }
@@ -194,11 +203,6 @@ main {
     .sidebar-area {
       flex: 1 1 100%;
       padding: 15px;
-    }
-
-    .author-picture {
-        margin: auto;
-        display: block;
     }
 
     .sidebar-author-name {
