@@ -3,7 +3,7 @@ layout: post
 title:  "Give Up Perfection!"
 author: "Robert Ecker"
 date:   2017-07-04 12:00:00 +0200
-categories: general
+categories: misc
 title_image: ../images/posts/2017-07-04-give-up-perfection/title-image.png
 ---
 
