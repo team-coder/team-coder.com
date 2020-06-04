@@ -1,8 +1,8 @@
 footer {
     background: $color-background-footer;
     color: $color-text-footer;
-    padding-top: 40px;
-    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .footer-sections {
@@ -14,7 +14,7 @@ footer {
 }
 
 .footer-section {
-    padding: 10px;
+    padding: 0 10px;
     flex-basis: 0;
     flex-grow: 1;
 }
@@ -23,7 +23,7 @@ footer {
     text-align: center;
     font-size: medium;
     color: gray;
-    margin: 50px 25px 0 25px;
+    margin: 40px 25px 0 25px;
 }
 
 
