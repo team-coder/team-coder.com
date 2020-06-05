@@ -41,7 +41,7 @@
                 {% unless page.title == relatedArticle.title %}
                     {% assign relatedCount = relatedCount | plus: 1 %}
                     <div class="article-teaser-small">
-                        {% include article-teaser.html post=relatedArticle %}
+                        {% include article-teaser.html post=relatedArticle small=true %}
                     </div>
                 {% endunless %}
             {% endfor %}

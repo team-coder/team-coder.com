@@ -4,7 +4,7 @@ title:  "How to Build a Twitter Bot with Python"
 author: "Robert Ecker"
 date:   2017-05-24 12:00:00 +0200
 categories: dev
-image: ../images/posts/2017-05-24-how-to-build-a-twitter-bot-with-python/title-image.png
+image: ../images/posts/2017-05-24-how-to-build-a-twitter-bot-with-python/title-image.jpg
 permalink: /twitter-bot-with-python/
 ---
 

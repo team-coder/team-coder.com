@@ -4,7 +4,7 @@ title:  "How to Establish Coding Guidelines in Your Team"
 author: "Robert Ecker"
 date:   2016-02-03 12:00:00 +0200
 categories: leadership
-image: ../images/posts/2016-02-03-how-to-establish-coding-guidelines-in-your-team/title-image.png
+image: ../images/posts/2016-02-03-how-to-establish-coding-guidelines-in-your-team/title-image.jpg
 permalink: /establish-coding-guidelines/
 ---
 

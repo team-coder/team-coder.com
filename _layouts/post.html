@@ -5,12 +5,10 @@ layout: default
 <div class="content-area">
   <article class="content-container" itemscope itemtype="http://schema.org/BlogPosting">
 
-    {% if page.image %}
-    <img src="{{page.image}}" alt="hero image {{ page.title | escape }}" class="title-image">
-    {% endif %}
+    {%- include title-image.html image_path=page.image -%}
 
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    
+
     {%- include article-meta.html page=page-%}
 
     <div class="post-content" itemprop="articleBody">

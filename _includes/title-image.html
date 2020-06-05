@@ -1,0 +1,24 @@
+{% if include.image_path %}
+    {% assign image_path_220 = include.image_path | replace_first: ".jpg", "-220.jpg" %}
+    {% assign image_path_440 = include.image_path | replace_first: ".jpg", "-440.jpg" %}
+    {% assign image_path_845 = include.image_path %}
+
+    {% if include.small == true %}
+        <!-- The small teaser has always roughly the same size so we only take
+            the screen resolution into account for choosing the right image -->
+        <img src="{{image_path_440}}"  
+            srcset="{{image_path_220}} 1x, {{image_path_440}} 2x"
+            alt="hero image {{ include.post.title | escape }}"
+            class="title-image">
+    {% else %}
+        <!-- For the big teaser we usually take the 845px image. It's fine for
+            huge screens and also for narrow displays because those usually
+            are smartphones and have a higher resolution -->
+        <img src="{{image_path_845}}"  
+            srcset="{{image_path_440}} 440w, {{image_path_845}} 845w"
+            sizes="(max-width: 500px) 440px, 845px"
+            alt="hero image {{ include.post.title | escape }}"
+            class="title-image">
+    {% endif %}
+
+{% endif %}

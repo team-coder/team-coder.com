@@ -4,7 +4,7 @@ title:  "Boosting the Quality of Team Decisions"
 author: "Robert Ecker"
 date:   2015-09-09 12:00:00 +0200
 categories: leadership
-image: ../images/posts/2015-12-17-boosting-the-quality-of-team-decisions/title-image.png
+image: ../images/posts/2015-12-17-boosting-the-quality-of-team-decisions/title-image.jpg
 ---
 
 There are many ways to make decisions in a team. Most teams use always the same style to decide things. Unfortunately there is not *one* way which is perfect for every situation. If you choose your decision style depending on the context you will come up with much better solutions for important questions.

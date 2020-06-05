@@ -4,7 +4,7 @@ title:  "First Anniversary of the Team Coder"
 author: "Robert Ecker"
 date:   2016-09-09 12:00:00 +0200
 categories: misc
-image: ../images/posts/2016-09-09-first-anniversary-of-the-team-coder/title-image.png
+image: ../images/posts/2016-09-09-first-anniversary-of-the-team-coder/title-image.jpg
 permalink: /first-anniversary/
 ---
 

@@ -4,7 +4,7 @@ title:  "Code Reviews in Trunk Based Development"
 author: "Robert Ecker"
 date:   2016-08-11 12:00:00 +0200
 categories: dev
-image: ../images/posts/2016-08-11-code-reviews-in-trunk-based-development/title-image.png
+image: ../images/posts/2016-08-11-code-reviews-in-trunk-based-development/title-image.jpg
 ---
 
 A few months ago I published a [blog post](https://team-coder.com/from-git-flow-to-trunk-based-development/) about my team’s transition from Git Flow to trunk based development. We have found a way to get our code into the master branch very quickly. At the same time we are always ready to release our master with confidence which is the basis for our continuous delivery pipeline. We have less merge conflicts and we are able to enable or disable features at any time.
