@@ -14,7 +14,7 @@ footer {
 }
 
 .footer-section {
-    padding: 0 10px;
+    padding: 0 25px;
     flex-basis: 0;
     flex-grow: 1;
 }
@@ -33,10 +33,5 @@ footer {
     
     .footer-sections {
         flex-direction: column;
-    }
-
-    .footer-section {
-        padding-left: 25px;
-        padding-right: 25px;
     }
 }
