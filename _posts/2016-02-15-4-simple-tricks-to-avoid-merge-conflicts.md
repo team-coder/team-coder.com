@@ -38,4 +38,4 @@ This is how branching would typically look like with Mob Programming:
 
 ![mob programming branch](../images/posts/2016-02-15-4-simple-tricks-to-avoid-merge-conflicts/mob-programming-branch.png)
 
-Do you know more tricks to avoid merge conflicts? I would really like to know them so feel free to write a comment!
+Do you know more tricks to avoid merge conflicts? I would really like to know them so feel free to write a comment on Twitter!

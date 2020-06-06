@@ -45,4 +45,4 @@ A pet project forces you to think about every detail by yourself. At the same ti
 
 ## Start Your Own Pet Project
 
-Do you already have a pet project? That’s great! Please tell us about it in the comments section below! If you don’t have a pet project, yet, I hope this blog post motivates you to start one ;-)
+Do you already have a pet project? That’s great! Tell me about it on Twitter! If you don’t have a pet project, yet, I hope this blog post motivates you to start one ;-)

@@ -56,6 +56,6 @@ Also, if you leave the company somebody else has to step into your footprint. Th
 We are always working with some kind of a team even if we don’t realize it. The future versions of yourself are team mates like every other team mate and making their lives easier is a great investment.
 
 ## Learn more about team coding!
-In this blog I will write about my experiences as a software developer in different teams. Many ideas are inspired by discussions, books and blogs and applied and tested in real life. This blog will be like a diary of the most valuable things I have learned. You will find both technical articles and articles about the soft skills a team coder needs. I have many subjects in mind about which I want to write so be excited :) I also hope that I will kick off some interesting discussions in the comments sections of my posts so I can also learn from you!
+In this blog I will write about my experiences as a software developer in different teams. Many ideas are inspired by discussions, books and blogs and applied and tested in real life. This blog will be like a diary of the most valuable things I have learned. You will find both technical articles and articles about the soft skills a team coder needs. I have many subjects in mind about which I want to write so be excited :) I also hope that I will kick off some interesting discussions with my blog posts so I can also learn from you!
 
 Your feedback is always highly appreciated!

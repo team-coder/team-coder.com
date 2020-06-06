@@ -2,7 +2,7 @@
 layout: post
 title:  "Boosting the Quality of Team Decisions"
 author: "Robert Ecker"
-date:   2015-09-09 12:00:00 +0200
+date:   2015-12-17 12:00:00 +0200
 categories: leadership
 image: ../images/posts/2015-12-17-boosting-the-quality-of-team-decisions/title-image.jpg
 ---
@@ -71,4 +71,4 @@ Here are some points which you can use to choose the best decision style for you
 - the ones who don’t decide might feel less important
 
 <br/>
-What are your experiences with different styles for making decisions? Your comments are highly appreciated!
+What are your experiences with different styles for making decisions? Your comments are highly appreciated on Twitter!

@@ -53,4 +53,4 @@ Mob Programming is perfect for introducing new team members to the way the team 
 ## When should you do Mob Programming?
 Even though it would be possible to do Mob Programming for every task, this would not work for most teams. Normally, developers need some time on their own so they can try out a few things or read some articles or documentations. Some tasks are so trivial that it doesn’t make sense to do them with the whole team. But the more complex or critical a problem is the better it is to solve it with more than one person. Also for the positive effect on the team spirit and for the many things you can learn from the others it is worth doing Mob Programming regularly. If your team is new to the topic it will be a good start to do it once or twice a week for half a day. Use the retrospectives to learn how often your team wants to do it!
 
-**Do you have any experiences with Mob Programming? Please share them in the comments section below! :-)**
+**Do you have any experiences with Mob Programming? Let's have a discussion on Twitter! :-)**
