@@ -3,7 +3,7 @@ layout: post
 title:  "Improving Skills with a Pet Project"
 author: "Robert Ecker"
 date:   2016-06-06 12:00:00 +0200
-categories: misc
+categories: dev
 image: ../images/posts/2016-06-06-improving-skills-with-a-pet-project/title-image.jpg
 permalink: /pet-project/
 ---
