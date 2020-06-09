@@ -4,7 +4,7 @@ title:  "How to Overcome a Bad Habit"
 author: "Robert Ecker"
 date:   2019-07-02 12:00:00 +0200
 categories: misc
-image: ../images/posts/2019-07-02-how-to-overcome-a-bad-habit/title-image.jpg
+image: /images/posts/2019-07-02-how-to-overcome-a-bad-habit/title-image.jpg
 ---
 
 At least 40% of the things we do in our daily lives are habits. We don't control them consciously. We just do what we are used to do. From an evolutionary perspective this is a valuable strategy. We have to spend less time on thinking and making decisions and can instead run away from a dangerous animal instantly. Today, we still have useful habits, like looking for cars before crossing a street. Many of our habits, however, are not necessary at all, some of them are even unhealthy.

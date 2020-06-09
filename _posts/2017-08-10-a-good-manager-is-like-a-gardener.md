@@ -4,7 +4,7 @@ title:  "A Good Manager is Like a Gardener"
 author: "Robert Ecker"
 date:   2017-08-10 12:00:00 +0200
 categories: leadership
-image: ../images/posts/2017-08-10-a-good-manager-is-like-a-gardener/title-image.jpg
+image: /images/posts/2017-08-10-a-good-manager-is-like-a-gardener/title-image.jpg
 permalink: /good-manager/
 ---
 

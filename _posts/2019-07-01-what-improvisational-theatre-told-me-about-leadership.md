@@ -4,7 +4,7 @@ title:  "What Improvisational Theatre Told Me About Leadership"
 author: "Robert Ecker"
 date:   2019-07-01 12:00:00 +0200
 categories: leadership
-image: ../images/posts/2019-07-01-what-improvisational-theatre-told-me-about-leadership/title-image.jpg
+image: /images/posts/2019-07-01-what-improvisational-theatre-told-me-about-leadership/title-image.jpg
 ---
 
 Improvisational theatre is a special form of theatre where the actors have no storybook and therefore have no idea what will happen at the stage. The story is created spontaneously by the actors. There are no requisites. Every item that is needed for the story has to be imagined. When I first heard about it many years ago, this idea was so scary for me that I actually had to try it out. The lessons I have learned from it were mind-blowing. They not only shaped my character but also helped me to become a much better professional leader.

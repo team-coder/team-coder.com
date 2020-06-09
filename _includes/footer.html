@@ -4,7 +4,7 @@
       <h3>
         Subscribe
         <svg class="svg-icon" style="fill: #fff; padding-bottom: 4px">
-          <use xlink:href="{{ '/images/social-icons.svg#rss' | relative_url }}"></use>
+          <use xlink:href="{{ site.url | append: '/images/social-icons.svg#rss' }}"></use>
         </svg>
       </h3>
       <p>
@@ -17,7 +17,7 @@
       <h3>
         Open Source
         <svg class="svg-icon" style="fill: #fff;">
-          <use xlink:href="{{ '/images/social-icons.svg#github' | relative_url }}"></use>
+          <use xlink:href="{{ site.url | append: '/images/social-icons.svg#github' }}"></use>
         </svg>
       </h3>
       <p>
@@ -29,7 +29,7 @@
     <div class="footer-section">
       <h3>
         Version 2.0
-        <img src="/images/logo.svg" width="16px" height="16px" class="svg-icon" style="padding-bottom: 4px">
+        <img src="{{ site.url }}/images/logo.svg" width="16px" height="16px" class="svg-icon" style="padding-bottom: 4px">
       </h3>
       <p>
         The Team Coder was started in 2015. This new version was completely rebuilt in 2020 and it still contains the original content.

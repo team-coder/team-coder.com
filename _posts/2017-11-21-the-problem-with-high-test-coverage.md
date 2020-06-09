@@ -4,7 +4,7 @@ title:  "The Problem With High Test Coverage"
 author: "Robert Ecker"
 date:   2017-11-21 12:00:00 +0200
 categories: dev
-image: ../images/posts/2017-11-21-the-problem-with-high-test-coverage/title-image.jpg
+image: /images/posts/2017-11-21-the-problem-with-high-test-coverage/title-image.jpg
 permalink: /test-coverage/
 ---
 

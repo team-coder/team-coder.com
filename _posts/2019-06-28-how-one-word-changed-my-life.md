@@ -4,7 +4,7 @@ title:  "How One Word Changed My Life"
 author: "Robert Ecker"
 date:   2019-06-28 12:00:00 +0200
 categories: misc
-image: ../images/posts/2019-06-28-how-one-word-changed-my-life/title-image.jpg
+image: /images/posts/2019-06-28-how-one-word-changed-my-life/title-image.jpg
 ---
 
 How often did you say, "yes, but" today? If you are like most people in the Western culture, then I guess you said it quite often. We like to say it because it helps us to stay in our comfort zones. When we say "Yes, but" then what we basically mean is "No." It's our automatic defensive reaction against potential change. No change means we can stay in our comfort zones.

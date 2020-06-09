@@ -1,8 +1,9 @@
 {%- if include.page.author -%}
 <div class="article-meta">
     <a href="/about/">
-        <img src="/images/robert-ecker.jpg"  
-            srcset="/images/robert-ecker-50.jpg 1x, /images/robert-ecker-100.jpg 2x, /images/robert-ecker.jpg 3.0x"
+        {%- assign base_path = site.url | append: "/images/robert-ecker" -%}
+        <img src="{{ base_path }}.jpg"  
+            srcset="{{ base_path }}-50.jpg 1x, {{ base_path }}-100.jpg 2x, {{ base_path }}.jpg 3x"
             alt="the author Robert Ecker"
             class="author-picture">
     </a>

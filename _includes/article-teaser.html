@@ -2,7 +2,8 @@
 
 <a href="{{ include.post.url | relative_url }}" style="text-decoration: none;">
     <div>
-        {%- include title-image.html image_path=include.post.image small=include.small -%}
+        {%- assign image_path = site.url | append: include.post.image -%}
+        {%- include title-image.html image_path=image_path small=include.small -%}
 
         <h3>{{ include.post.title | escape }}</h3>
         {%- include article-meta-text.html post=include.post-%}

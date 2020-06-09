@@ -5,7 +5,8 @@ layout: default
 <div class="content-area">
   <article class="content-container" itemscope itemtype="http://schema.org/BlogPosting">
 
-    {%- include title-image.html image_path=page.image -%}
+    {%- assign image_path = site.url | append: page.image -%}
+    {%- include title-image.html image_path=image_path -%}
 
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
 

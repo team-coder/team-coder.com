@@ -4,7 +4,7 @@ title:  "4 Simple Tricks to Avoid Merge Conflicts"
 author: "Robert Ecker"
 date:   2016-02-15 12:00:00 +0200
 categories: dev
-image: ../images/posts/2016-02-15-4-simple-tricks-to-avoid-merge-conflicts/title-image.jpg
+image: /images/posts/2016-02-15-4-simple-tricks-to-avoid-merge-conflicts/title-image.jpg
 permalink: /avoid-merge-conflicts/
 ---
 
