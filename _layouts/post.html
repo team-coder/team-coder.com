@@ -5,8 +5,10 @@ layout: default
 <div class="content-area">
   <article class="content-container" itemscope itemtype="http://schema.org/BlogPosting">
 
-    {%- assign image_path = site.url | append: page.image -%}
-    {%- include title-image.html image_path=image_path -%}
+    {% if page.image %}
+      {%- assign image_path = site.url | append: page.image -%}
+      {%- include title-image.html image_path=image_path -%}
+    {% endif %}
 
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
 
