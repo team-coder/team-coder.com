@@ -5,6 +5,7 @@ author: "Robert Ecker"
 date:   2015-10-20 12:00:00 +0200
 categories: dev
 image: /images/posts/2015-10-20-mob-programming/title-image.jpg
+description: In this article you will learn how Mob Programming can help your team to share knowledge, improve the team spirit and, by the way, develop great software!
 ---
 
 Mob Programming is like [Pair Programming](http://www.extremeprogramming.org/rules/pair.html) but even more amazing! Instead of two people working together you have a whole team “working at the same time, in the same space, at the same computer, on the same thing” ([http://mobprogramming.org](http://mobprogramming.org/)).

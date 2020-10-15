@@ -6,6 +6,7 @@ date:   2015-12-19 12:00:00 +0200
 categories: dev
 image: /images/posts/2015-12-19-the-solid-principles-of-software-design-by-examples/title-image.jpg
 permalink: /solid-principles/
+description: This article is a summary of the SOLID principles of software design, as originally introduced by Uncle Bob. I explain each of the five principles with an example.
 ---
 
 **SOLID** is an acronym for five principles that help software developers design maintainable and extendable classes. It stands for _**S**ingle responsibility_, _**O**pen-closed_, _**L**iskov substitution_, _**I**nterface segregation_ and _**D**ependency inversion_. The acronym was first introduced by Michael Feathers and is based on Uncle Bob’s paper [Design Principles and Design Patterns](https://www.goodreads.com/book/show/25936819-design-principles-and-design-patterns).

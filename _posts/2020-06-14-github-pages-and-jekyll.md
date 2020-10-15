@@ -5,6 +5,7 @@ author: "Robert Ecker"
 date:   2020-06-14 08:00:00 +0200
 categories: dev
 image: /images/posts/2020-06-14-github-pages-and-jekyll/title-image.jpg
+description: Learn why I built this blog with GitHub Pages and Jekyll and how I did it!
 ---
 
 I have recently rebuilt this website with Jekyll and it is now deployed via GitHub Pages. In this article I will tell you why I did that and show you how I did it.

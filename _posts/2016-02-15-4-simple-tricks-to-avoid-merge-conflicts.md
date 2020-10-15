@@ -6,6 +6,7 @@ date:   2016-02-15 12:00:00 +0200
 categories: dev
 image: /images/posts/2016-02-15-4-simple-tricks-to-avoid-merge-conflicts/title-image.jpg
 permalink: /avoid-merge-conflicts/
+description: Fortunately, there are a few tricks to avoid merge conflicts and this article will tell you how!
 ---
 
 [Git](https://git-scm.com/) is a great tool if you have multiple developers working on the same code base. However, there is one thing which can be very annoying if your team uses Git: *Merge conflicts*! Two developers have changed the same part of the code and then Git doesn’t know what to do. Fortunately, there are a few tricks to avoid merge conflicts and this article will tell you how!

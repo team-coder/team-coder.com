@@ -5,6 +5,7 @@ author: "Robert Ecker"
 date:   2015-12-17 12:00:00 +0200
 categories: leadership
 image: /images/posts/2015-12-17-boosting-the-quality-of-team-decisions/title-image.jpg
+description: "This article is based on a very interesting chapter in Gerald M. Weinberg’s book 'Becoming a Technical Leader'. The author describes three basic ways for making a decision: Voting, Consensus and the Strong Leader."
 ---
 
 There are many ways to make decisions in a team. Most teams use always the same style to decide things. Unfortunately there is not *one* way which is perfect for every situation. If you choose your decision style depending on the context you will come up with much better solutions for important questions.
