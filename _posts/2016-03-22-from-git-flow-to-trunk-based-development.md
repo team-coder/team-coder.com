@@ -5,6 +5,7 @@ author: "Robert Ecker"
 date:   2016-03-22 12:00:00 +0200
 categories: dev
 image: /images/posts/2016-03-22-from-git-flow-to-trunk-based-development/title-image.jpg
+description: The story how we smoothly transitioned from GitFlow to Trunk Based Development, using feature toggles and more.
 ---
 
 I have worked with [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/) for a few years and it helped me a lot to structure my [Git](https://git-scm.com/) branches. However, I have encountered some problems with Git Flow, most of them coming from long-living branches. The solution to solve those problems is *trunk based development*! It is an amazingly simple technique which is also the base for effective *continuous delivery*. In this article I tell you how I have made the transition from Git Flow to trunk based development with my iOS development team at [HolidayCheck](https://www.holidaycheck.de/). You will learn what is the most important step to get there and what benefits you will get from trunk based development, so keep on reading!

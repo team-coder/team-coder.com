@@ -6,6 +6,7 @@ date:   2016-09-09 12:00:00 +0200
 categories: misc
 image: /images/posts/2016-09-09-first-anniversary-of-the-team-coder/title-image.jpg
 permalink: /first-anniversary/
+description: Today is the first anniversary of team-coder.com so I decided to write a short article about the things I have learned within the last year and the things I have planned for the next year.
 ---
 
 Today is a very special day for me! Exactly one year ago I published my [first article](https://team-coder.com/the-team-coder/) on this blog! Today is the first anniversary of team-coder.com so I decided to write a short article about the things I have learned within the last year and the things I have planned for the next year.

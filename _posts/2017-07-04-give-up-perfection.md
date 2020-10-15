@@ -5,6 +5,7 @@ author: "Robert Ecker"
 date:   2017-07-04 12:00:00 +0200
 categories: misc
 image: /images/posts/2017-07-04-give-up-perfection/title-image.jpg
+description: Get rid of your perfectionism - a motivating text!
 ---
 
 I wanted to write about that topic for weeks or maybe even months. But I never started. Until now! Something was holding me back from writing this article. It was almost like a fear. Maybe the fear of not being good enough. I was not sure what exactly to write down and how to write it. I didn’t even come up with a good title for that article and without a great title I didn’t want to start writing at all. The title has to be short and crispy. It has to catch the reader’s attention! It has to seem relevant to search engines. It has to be as perfect as the whole content of the article.

@@ -6,6 +6,7 @@ date:   2017-08-10 12:00:00 +0200
 categories: leadership
 image: /images/posts/2017-08-10-a-good-manager-is-like-a-gardener/title-image.jpg
 permalink: /good-manager/
+description: A short metaphor which compares a manager to a gardener.
 ---
 
 Since I attended a Management 3.0 workshop a couple of weeks ago there is one thing that I cannot get out of my mind. It was a simple metaphor: A good manager is like a gardener. Imagine a garden full of vegetables, fruits and other plants. The gardener’s job is to create as much value as possible out of the garden. Value might be the fruits that the plants create. The more tomatoes, strawberries and potatoes grow the more value comes out of the garden.
