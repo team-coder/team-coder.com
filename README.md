@@ -1,11 +1,11 @@
 # The Team Coder Blog
 
-This repo contains the source code for the website at [team-coder.com](team-coder.com). It's built with [Jekyll](https://jekyllrb.com) and deployed via GitHub Pages.
+This repo contains the source code for the website [https://team-coder.com](https://team-coder.com). It's built with [Jekyll](https://jekyllrb.com) and deployed via GitHub Pages.
 
 
 ## How to run the website locally
 
-First, you have to install [Jekyll](https://jekyllrb.com/docs/).
+First, you have to install [Jekyll](https://jekyllrb.com/docs/), preferably using [Bundler](https://bundler.io), as described on the Jekyll website.
 
 Then, after checking out this GitHub repository, use the console to go to it's root directory. Type the following command to start the Jekyll server:
 
@@ -14,6 +14,22 @@ bundle exec jekyll serve
 ```
 
 Once the server is running you can reach the website in your browser at [http://localhost:4000](http://localhost:4000).
+
+
+## Managing Dependencies
+
+With [Bundler](https://bundler.io) installed, run this command to install all dependencies from the Gemfile:
+
+```bash
+bundle install
+```
+
+For updating all dependencies use:
+
+```bash
+bundle update
+```
+
 
 
 ## How to add a new blog post
@@ -39,7 +55,7 @@ SOLID is an acronym for five principles that help software developers design mai
 ```
 
 4. Run the project locally (as described above).
-5. Create a new pull request. As soon as it is merged into the *master* branch it will be published on [team-coder.com](team-coder.com) :tada:
+5. Create a new pull request. As soon as it is merged into the *master* branch it will be published on [https://team-coder.com](https://team-coder.com) :tada:
 
 
 ## How to add a new category for blog posts
