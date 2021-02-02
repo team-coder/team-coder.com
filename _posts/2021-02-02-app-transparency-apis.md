@@ -10,7 +10,7 @@ excerpt: This article explains how to use the App Tracking Transparency APIs for
 
 Apple just released some [updates](https://developer.apple.com/news/?id=3ozbk628) on their App Store Review Guideline. I guess for most app developers the most relevant point in this update is this one:
 
-> "You must receive explicit permission from users via the App Tracking Transparency APIs to track their activity."
+> You must receive explicit permission from users via the App Tracking Transparency APIs to track their activity.
 
 I think it's a good step towards more transparency and data protection but it also means some extra work for us developers. In this blog post I explain how to use Apple's *App Tracking Transparency APIs* in three simple steps.
 
