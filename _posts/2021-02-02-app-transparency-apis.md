@@ -15,9 +15,10 @@ Apple just released some [updates](https://developer.apple.com/news/?id=3ozbk628
 I think it's a good step towards more transparency and data protection but it also means some extra work for us developers. In this blog post I explain how to use Apple's *App Tracking Transparency APIs* in three simple steps.
 
 
-## Step 1: Set up NSUserTrackingUsageDescription
+## Step 1: Set up Privacy Key in Info.plist
 
 The first thing we have to do is adding a new key in our app's Info.plist file. The `NSUserTrackingUsageDescription` key provides a message which is displayed along with the tracking authorization dialog. You can use it to explain the user why the tracking is necessary. So go ahead and add the key, like illustrated in this screen shot:
+
 ![the NSUserTrackingUsageDescription key in Info.plist](../images/posts/2021-02-02-app-transparency-apis/NSUserTrackingUsageDescription.png)
 
 NOTE: Make sure to have at least Xcode 12.4 installed in order to use the App Tracking Transparency APIs.
