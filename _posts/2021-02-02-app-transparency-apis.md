@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "User Tracking on iOS - Using the App Tracking Transparency APIs"
+title:  "Swift: The App Tracking Transparency APIs on iOS"
 author: "Robert Ecker"
 date:   2021-02-02 10:00:00 +0200
 categories: dev
