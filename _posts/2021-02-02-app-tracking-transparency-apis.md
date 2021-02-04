@@ -20,7 +20,7 @@ I think it's a good step towards more transparency and data protection but it al
 
 The first thing we have to do is adding a new key in our app's Info.plist file. The `NSUserTrackingUsageDescription` key provides a message which is displayed along with the tracking authorization dialog. You can use it to explain the user why the tracking is necessary. So go ahead and add the key, like illustrated in this screen shot:
 
-![the NSUserTrackingUsageDescription key in Info.plist](../images/posts/2021-02-02-app-transparency-apis/NSUserTrackingUsageDescription.png)
+![the NSUserTrackingUsageDescription key in Info.plist](../images/posts/2021-02-02-app-tracking-transparency-apis/NSUserTrackingUsageDescription.png)
 
 NOTE: Make sure to have at least Xcode 12.4 installed in order to use the App Tracking Transparency APIs.
 
@@ -36,7 +36,7 @@ ATTrackingManager.requestTrackingAuthorization { (status) in
 
 When the above code is executed the user will see the following dialog:
 
-![App Tracking Transparency dialog](../images/posts/2021-02-02-app-transparency-apis/app-tracking-transparency-dialog.png)
+![App Tracking Transparency dialog](../images/posts/2021-02-02-app-tracking-transparency-apis/app-tracking-transparency-dialog.png)
 
 ## Step 3: Determining the Authorization Status
 
